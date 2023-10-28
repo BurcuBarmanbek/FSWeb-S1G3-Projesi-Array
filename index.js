@@ -30,8 +30,10 @@ const orijinalTatlar = [
 ];
 
 /* Görev 1: Diziyi kopyalama!
-Orijinal tatların bulunduğu toplam 25 aromanın olduğu bir dizimiz var (yukarıya bakın). Bu görevde, bu dizi'ye veri yazma ve bu diziden veri okuma işlemleri yapacağız.
-Tüm bu değişiklikleri yaparken, gerçek, orijinal 25 lezzetin listesini kaybetmek istemiyoruz. Bu yüzden orijinal diziyi kopyalamamız gerekmektedir!
+Orijinal tatların bulunduğu toplam 25 aromanın olduğu bir dizimiz var (yukarıya bakın). Bu görevde, bu dizi'ye veri yazma ve
+ bu diziden veri okuma işlemleri yapacağız.
+Tüm bu değişiklikleri yaparken, gerçek, orijinal 25 lezzetin listesini kaybetmek istemiyoruz. Bu yüzden orijinal
+ diziyi kopyalamamız gerekmektedir!
 
 /*
 Aşağıdakileri yapmak için aşağıdaki kopyalama işlevini kullanın:
@@ -39,9 +41,10 @@ Aşağıdakileri yapmak için aşağıdaki kopyalama işlevini kullanın:
    2. Alınan dizinin bir kopyasını döndür
 */
 
-
-function kopyala(/*kod buraya*/){
-  /*kod buraya*/
+function kopyala(orijinalTatlar){
+  const orijinalTatlarCopy = orijinalTatlar.slice(0);
+  console.log(orijinalTatlarCopy);
+  return orijinalTatlarCopy;
 }
 
 
