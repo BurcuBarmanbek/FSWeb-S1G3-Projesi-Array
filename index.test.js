@@ -2,6 +2,7 @@ import functions from './index';
 // import{orijinalTatlar}from '../index';
 let orijinalTatlar;
 beforeEach(()=>{
+    
     orijinalTatlar = [
         "Muz",
         "Vişne",
